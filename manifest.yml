@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: jcd-iotplatformstarter-001
+  host: jcd-iotplatformstarter-001
+  disk_quota: 1024M
+  services:
+  - jcd-iotplatformstarter-001-cloudantNoSQLDB
+  - jcd-iotplatformstarter-001-iotf-service
